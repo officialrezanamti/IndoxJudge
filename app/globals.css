@@ -6,7 +6,7 @@
     background: linear-gradient(to right , #cecfcf , #e0e0e0 , transparent)
 }
 .dark-active{
-    background: linear-gradient(to right , #575858 , #807f7f , transparent)
+    background: linear-gradient(to right , #6c6c6c72 , #3b3b3b , transparent )
 }
 .boxShadow{
     box-shadow: 0 0 10px rgba(128, 127, 127, 0.391)  ;
@@ -22,6 +22,18 @@
      }
      .close{
         display: none;
+     }
+     .sizeSide{
+        width: 6%;
+     }
+     .sizeSideFix{
+        width: 35%;
+     }
+     .hideToggleBtn{
+        overflow: hidden;
+     }
+     .toggleBtn{
+        overflow: visible;
      }
    
 }

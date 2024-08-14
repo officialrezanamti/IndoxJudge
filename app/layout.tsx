@@ -34,7 +34,7 @@ export default function RootLayout({
       >
         <Providers>
           <NprogressProviders>
-          <div className="bg-gradient-to-bl flex md:justify-between  from-[#d8ddde] to-[#f9fafa] dark:bg-[#57595c] dark:text-white w-screen h-screen">
+          <div className="bg-gradient-to-bl flex  from-[#d8ddde] to-[#f9fafa] dark:bg-[#57595c] dark:text-white w-screen h-screen">
             <SideBar />
             {children}
             </div>
