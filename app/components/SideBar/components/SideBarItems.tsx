@@ -27,9 +27,9 @@ export default function SideBarItems(){
                       : "w-full px-3 lg:px-5 hover:bg-[#cecfcf] dark:hover:bg-[#4b4b4b]  cursor-pointer duration-300"
                 }`}
               >
-                <li className="py-2 flex items-center gap-1">
+                <li className="py-2 flex items-center gap-1 w-[150px]">
                   <AiOutlineRadarChart />
-                  <p className="flex"> Radar Chart</p>
+                  <p className="" > Radar Chart</p>
                 </li>
               </div>
             </Link>
@@ -156,9 +156,9 @@ export default function SideBarItems(){
                     : "px-3 lg:px-5 w-full  hover:bg-[#cecfcf] dark:hover:bg-[#4b4b4b]  cursor-pointer duration-300"
                     }`}
                     >
-                <li className="py-2 flex items-center gap-1">
+                <li className="py-2 flex items-center gap-1  w-[150px]">
                   <PiGauge />
-                  <p>Gauge Chart</p>
+                  <p className="">Gauge Chart</p>
                 </li>
               </div>
             </Link>
